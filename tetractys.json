@@ -513,8 +513,8 @@
           "content": {
             "title": "Surfy Life",
             "publishedAt": "2026-03-29T21:11",
-            "excerpt": "<p><br></p><p><br></p>",
-            "body": "<p><br></p><p><br></p>",
+            "excerpt": "asdfasfd",
+            "body": "<p>asdfafadasdfa</p><p><br></p><p>asdf</p><p>adf</p>",
             "heroText": "Why is content not saving?"
           }
         },
