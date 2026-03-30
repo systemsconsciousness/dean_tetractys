@@ -545,7 +545,21 @@
         "eyebrow": "Press",
         "intro": "Selected press hits and articles featuring my work."
       },
-      "posts": {}
+      "posts": {
+        "press-hit": {
+          "title": "This is a sample press hit",
+          "slug": "press-hit",
+          "schema": "article",
+          "template": "article",
+          "publishedAt": "2026-03-30T11:18",
+          "updatedAt": "2026-03-30T15:19:25.203Z",
+          "content": {
+            "title": "This is a sample press hit",
+            "publishedAt": "2026-03-30T11:18",
+            "body": "<div>We </div><div><br></div><div>are just</div><div><br></div><div><br></div><div>Testing <b><i><u>this</u></i></b></div>"
+          }
+        }
+      }
     }
   },
   "navigation": {
