@@ -556,8 +556,8 @@
           "content": {
             "title": "This is a sample press hit",
             "publishedAt": "2026-03-30T11:18",
-            "body": "<div>We </div><div><br></div><div>are just</div><div><br></div><div><br></div><div>Testing <b><i><u>this</u></i></b></div><div><b><i><u><br></u></i></b></div><div><b><i><u>And my change didn't save either</u></i></b></div>",
-            "excerpt": "The excerpt didn't save. Hmm."
+            "body": "<div>We </div><div><br></div><div>are just</div><div><br></div><div>This time it did work.</div><div><br></div><div>Testing <b><i><u>this</u></i></b></div><div><b><i><u><br></u></i></b></div><div><b><i><u>And my change didn't save either</u></i></b></div>",
+            "excerpt": "The excerpt didn't save. Hmm. Well now it is working"
           }
         }
       }
