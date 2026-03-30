@@ -378,7 +378,7 @@
       "schema": "landing",
       "template": "landing",
       "publishedAt": "",
-      "updatedAt": "2026-03-30T00:52:25.287Z",
+      "updatedAt": "2026-03-30T01:08:43.362Z",
       "content": {
         "brandName": "TETRACTYS",
         "title": "Busy building products in seated meditation",
@@ -401,15 +401,15 @@
         "product3Name": "Press",
         "product3Description": "Selected press clippings and articles featuring my work.",
         "product3Link": "press",
-        "retired1Label": "Projects",
-        "retired1Link": "projects",
-        "retired2Label": "journal",
-        "retired2Link": "journal",
-        "retired2Badge": "NEW",
-        "retired3Label": "starter-kit",
-        "retired3Link": "starter-kit",
+        "retired1Label": "@systemsconsciousness on GitHub",
+        "retired1Link": "https://github.com/systemsconsciousness",
+        "retired2Label": "@dean-cstk on GitHub",
+        "retired2Link": "https://github.com/dean-cstk",
+        "retired2Badge": "WORK",
+        "retired3Label": "Dean on LinkedIn",
+        "retired3Link": "https://www.linkedin.com/in/dean-haddock-24697870/",
         "contactEmail": "hello@deanhaddock.com",
-        "footerText": "© 2026 Dean Haddock"
+        "footerText": "© 2026 / Dean Haddock / Built with Tetractys"
       }
     },
     "about": {
