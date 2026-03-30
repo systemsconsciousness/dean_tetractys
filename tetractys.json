@@ -507,6 +507,21 @@
           }
         }
       }
+    },
+    "projects": {
+      "title": "Projects",
+      "slug": "projects",
+      "schema": "stream",
+      "template": "stream",
+      "publishedAt": "",
+      "updatedAt": "2026-03-30T00:20:40.464Z",
+      "content": {
+        "title": "Projects",
+        "eyebrow": "Projects",
+        "footerText": "",
+        "intro": "These are some of my projects."
+      },
+      "posts": {}
     }
   },
   "navigation": {
@@ -527,6 +542,10 @@
         {
           "label": "Journal",
           "slug": "/journal"
+        },
+        {
+          "label": "Projects",
+          "slug": "/projects"
         }
       ]
     }
