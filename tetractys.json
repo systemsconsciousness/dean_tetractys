@@ -558,6 +558,19 @@
             "title": "Surfy Life",
             "publishedAt": "2026-03-29T21:11"
           }
+        },
+        "tetractys": {
+          "title": "Tetractys",
+          "slug": "tetractys",
+          "schema": "landing",
+          "template": "landing",
+          "publishedAt": "2026-03-29T21:14",
+          "updatedAt": "2026-03-30T01:14:47.876Z",
+          "content": {
+            "title": "Tetractys",
+            "publishedAt": "2026-03-29T21:14",
+            "heroText": "\"Probably the coolest thing you have ever built.\" - Wife"
+          }
         }
       }
     },
