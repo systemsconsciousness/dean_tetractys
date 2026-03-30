@@ -532,7 +532,7 @@
             "publishedAt": "2026-03-29T21:14",
             "heroText": "\"Probably the coolest thing you have ever built.\" - Wife",
             "excerpt": "\"Probably the coolest thing you've ever built.\" - Wife",
-            "body": "<p>As I'm typing this I have no idea whether what I write will be saved when I click Save. That's what it's like building something new. But also I have to admit, I'm not even sure what the app does.</p><p><br></p><p>Content Management sometimes feels like it's in my DNA. When I first began building websites and apps in the 90s, we didn't really have the concept of CMS. We had FrontPage and Dreamweaver, but any time someone wanted to update copy on a live site it tended to come over via email, and then a developer would input it into the site code. Then we'd upload it to a server via FTP and ask the site owner to review and approve it. Sometimes we'd just send screenshots. It was quite an onerous process, and the results were usually not very good.</p>",
+            "body": "<br>",
             "footerText": "(c) 2026 / Dean Haddock"
           }
         }
