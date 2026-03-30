@@ -526,13 +526,13 @@
           "schema": "article",
           "template": "article",
           "publishedAt": "2026-03-29T21:14",
-          "updatedAt": "2026-03-30T20:22:24.115Z",
+          "updatedAt": "2026-03-30T20:31:40.460Z",
           "content": {
             "title": "Tetractys",
             "publishedAt": "2026-03-29T21:14",
             "heroText": "\"Probably the coolest thing you have ever built.\" - Wife",
             "excerpt": "\"Probably the coolest thing you've ever built.\" - Wife",
-            "body": "<br>",
+            "body": "<p>Actually<br>Now it seems like<br>The<br>p tags<br>are being </p><p>removed.</p>",
             "footerText": "(c) 2026 / Dean Haddock"
           }
         }
