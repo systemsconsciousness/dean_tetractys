@@ -373,12 +373,12 @@
   "scripts": {},
   "pages": {
     "index": {
-      "title": "A minimal starter for structured sites.",
+      "title": "Busy building products in seated meditation",
       "slug": "index",
       "schema": "landing",
       "template": "landing",
       "publishedAt": "",
-      "updatedAt": "",
+      "updatedAt": "2026-03-30T00:39:33.537Z",
       "content": {
         "brandName": "TETRACTYS",
         "title": "Busy building products in seated meditation",
@@ -408,8 +408,8 @@
         "retired2Badge": "NEW",
         "retired3Label": "starter-kit",
         "retired3Link": "starter-kit",
-        "contactEmail": "hello@example.com",
-        "footerText": "© 2026 Tetractys"
+        "contactEmail": "hello@deanhaddock.com",
+        "footerText": "© 2026 Dean Haddock"
       }
     },
     "about": {
