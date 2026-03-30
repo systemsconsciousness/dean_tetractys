@@ -524,13 +524,13 @@
           "schema": "article",
           "template": "article",
           "publishedAt": "2026-03-29T21:14",
-          "updatedAt": "2026-03-30T16:03:27.569Z",
+          "updatedAt": "2026-03-30T18:33:44.453Z",
           "content": {
             "title": "Tetractys",
             "publishedAt": "2026-03-29T21:14",
             "heroText": "\"Probably the coolest thing you have ever built.\" - Wife",
             "excerpt": "\"Probably the coolest thing you've ever built.\" - Wife",
-            "body": "Well the first problem was learning how to code.\n\nThat took me to building stuff.\n\nWhich then took me to AI.\n\nAnd here we are.",
+            "body": "<ul><li><div>ASd</div><ul><li>SADQell the first problem was learning how to code.\n</li></ul></li></ul><div>Qw</div><div><br></div><div>\n</div>That took me to building stuff.\n\nWhich then took me to AI.\n\nAnd here we are.",
             "footerText": "(c) 2026 / Dean Haddock"
           }
         }
