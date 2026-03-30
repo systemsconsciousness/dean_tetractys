@@ -528,11 +528,11 @@
           "publishedAt": "2026-03-29T21:14",
           "updatedAt": "2026-03-30T18:39:13.598Z",
           "content": {
-            "title": "Tetractyss",
+            "title": "Tetractys",
             "publishedAt": "2026-03-29T21:14",
             "heroText": "\"Probably the coolest thing you have ever built.\" - Wife",
             "excerpt": "\"Probably the coolest thing you've ever built.\" - Wife",
-            "body": "<div>asdf aas</div><div>dfa</div><div>f</div><div>adf</div><div>ad</div><div>fa</div><div>dsfa</div>",
+            "body": "<p>I have to agree with her!</p>",
             "footerText": "(c) 2026 / Dean Haddock"
           }
         }
