@@ -521,13 +521,13 @@
           "schema": "article",
           "template": "article",
           "publishedAt": "2026-03-29T21:14",
-          "updatedAt": "2026-03-30T14:59:53.800Z",
+          "updatedAt": "2026-03-30T16:03:27.569Z",
           "content": {
             "title": "Tetractys",
             "publishedAt": "2026-03-29T21:14",
             "heroText": "\"Probably the coolest thing you have ever built.\" - Wife",
             "excerpt": "\"Probably the coolest thing you've ever built.\" - Wife",
-            "body": "If this works, she may be right.\n\nIt's definitely making it easy to editing this content right now.\nhere is a new <b>paragraph</b>\n\n\nsome new lines",
+            "body": "If this works, she may be right.\n\nIt's definitely making it easy to editing this content right now.\nhere is a new <b>paragraph</b>\n\n\n\n\nsome new lines",
             "footerText": "(c) 2026 / Dean Haddock"
           }
         }
