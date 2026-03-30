@@ -411,52 +411,6 @@
         "contactEmail": "hello@deanhaddock.com",
         "footerText": "© 2026 / Dean Haddock / Built with Tetractys"
       }
-    },
-    "about": {
-      "title": "Start simple and shape the site as you go.",
-      "slug": "about",
-      "schema": "default",
-      "template": "default",
-      "publishedAt": "",
-      "updatedAt": "",
-      "content": {
-        "title": "Start simple and shape the site as you go.",
-        "eyebrow": "About",
-        "intro": "This starter keeps the structure light while still giving you pages, a stream, and a shared design system to build from.",
-        "body": "Use this page to explain the site, the project, or the organization behind it. Tetractys is set up so you can begin with a minimal set of content and expand naturally as the site grows.",
-        "contactLabel": "Get in Touch",
-        "contactEmail": "hello@example.com",
-        "footerText": "© 2026 Tetractys"
-      }
-    },
-    "starter-kit": {
-      "title": "Everything in the starter works together.",
-      "slug": "starter-kit",
-      "schema": "feature-grid",
-      "template": "feature-grid",
-      "publishedAt": "",
-      "updatedAt": "",
-      "content": {
-        "title": "Everything in the starter works together.",
-        "eyebrow": "Starter Kit",
-        "intro": "The default setup includes a homepage, standard pages, a content stream, and sample posts so you can publish immediately.",
-        "product1Name": "Schemas",
-        "product1Description": "Define fields for each content type and keep structure consistent as your site evolves.",
-        "product1Link": "index",
-        "product1LinkLabel": "Back to home",
-        "product1Icon": "schema",
-        "product2Name": "Templates",
-        "product2Description": "Use shared layouts and a consistent visual system across landing pages, posts, and streams.",
-        "product2Link": "journal",
-        "product2LinkLabel": "Visit Journal",
-        "product2Icon": "dashboard_customize",
-        "product3Name": "Streams",
-        "product3Description": "Organize posts into a dedicated folder and publish them as a coherent body of work.",
-        "product3Link": "journal/hello-tetractys",
-        "product3LinkLabel": "Open sample post",
-        "product3Icon": "edit_note",
-        "footerText": "© 2026 Tetractys"
-      }
     }
   },
   "streams": {
@@ -600,14 +554,6 @@
         {
           "label": "Home",
           "slug": "index"
-        },
-        {
-          "label": "About",
-          "slug": "/about"
-        },
-        {
-          "label": "Starter Kit",
-          "slug": "/starter-kit"
         },
         {
           "label": "Journal",
