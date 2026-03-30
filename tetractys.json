@@ -456,7 +456,7 @@
             "eyebrow": "Journal",
             "excerpt": "Schemas and templates give a site consistency without forcing it into a rigid shape.",
             "publishedAt": "2026-03-30 10:30",
-            "body": "The goal of this starter is to stay minimal while still demonstrating the full Tetractys model. You get a landing page, supporting pages, a stream, and sample posts that you can keep, revise, or replace.",
+            "body": "We\njust\n\nwant to see\n\nif the &lt;p&gt; tags are\n\n<b><i>CORRECT</i></b>",
             "footerText": "© 2026 Tetractys"
           }
         }
@@ -532,7 +532,7 @@
             "publishedAt": "2026-03-29T21:14",
             "heroText": "\"Probably the coolest thing you have ever built.\" - Wife",
             "excerpt": "\"Probably the coolest thing you've ever built.\" - Wife",
-            "body": "<p>I have to agree with her!</p>",
+            "body": "<p>Alright <br>We're going to do it differently this time</p><p>Are these wrapped correctly?</p>",
             "footerText": "(c) 2026 / Dean Haddock"
           }
         }
