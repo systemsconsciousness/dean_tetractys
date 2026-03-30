@@ -532,7 +532,7 @@
             "publishedAt": "2026-03-29T21:14",
             "heroText": "\"Probably the coolest thing you have ever built.\" - Wife",
             "excerpt": "\"Probably the coolest thing you've ever built.\" - Wife",
-            "body": "<p>Alright <br>We're going to do it differently this time</p><p>Are these wrapped correctly?</p>",
+            "body": "It seems like this is working with the paragraphs now.\n\nThat's a good thing!\n\n<i>Maybe even a great thing!</i>\n\nThis would definitely make it easier for me to write about my projects.",
             "footerText": "(c) 2026 / Dean Haddock"
           }
         }
