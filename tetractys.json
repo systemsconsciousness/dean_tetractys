@@ -524,13 +524,13 @@
           "schema": "article",
           "template": "article",
           "publishedAt": "2026-03-29T21:14",
-          "updatedAt": "2026-03-30T18:38:17.411Z",
+          "updatedAt": "2026-03-30T18:39:13.598Z",
           "content": {
-            "title": "Tetractys",
+            "title": "Tetractyss",
             "publishedAt": "2026-03-29T21:14",
             "heroText": "\"Probably the coolest thing you have ever built.\" - Wife",
             "excerpt": "\"Probably the coolest thing you've ever built.\" - Wife",
-            "body": "That took me to building stuff.\n\n\n\nWhich then took me to AI.\n\nAnd here we are.",
+            "body": "<div>asdf aas</div><div>dfa</div><div>f</div><div>adf</div><div>ad</div><div>fa</div><div>dsfa</div>",
             "footerText": "(c) 2026 / Dean Haddock"
           }
         }
