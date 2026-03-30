@@ -482,12 +482,12 @@
           "schema": "article",
           "template": "article",
           "publishedAt": "2026-03-29T20:20",
-          "updatedAt": "2026-03-30T12:35:01.921Z",
+          "updatedAt": "2026-03-30T12:45:44.036Z",
           "content": {
             "title": "Zazen Labs",
             "publishedAt": "2026-03-29T20:20",
             "heroText": "Zazen Labs is a product studio based in Jacksonville Beach, Florida. We build ventures from the ground up, with deep expertise in strategy, design, web, XR/VR/AR, and AI/ML.",
-            "body": "<div>This is Zazen Labs. I'm now Testing&nbsp;To see if this works!</div><div><br></div><div>If it does, that's great!</div>",
+            "body": "This is a test!This is also a test!",
             "excerpt": "Zazen Labs is a product studio based in Jacksonville Beach, Florida. We build ventures from the ground up, with deep expertise in strategy, design, web, XR/VR/AR, and AI/ML."
           }
         },
