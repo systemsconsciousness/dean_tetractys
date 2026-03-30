@@ -497,10 +497,12 @@
           "schema": "article",
           "template": "article",
           "publishedAt": "2026-03-29T21:10",
-          "updatedAt": "2026-03-30T19:26:36.912Z",
+          "updatedAt": "2026-03-30T19:30:14.753Z",
           "content": {
             "title": "Photo Bop",
-            "publishedAt": "2026-03-29T21:10"
+            "publishedAt": "2026-03-29T21:10",
+            "excerpt": "<p>asdfasdfafadsf</p>",
+            "body": "<p>Well let's try, shall we?</p><p>If this is on another line, then that's some progress at least!</p>"
           }
         },
         "surfy-life": {
