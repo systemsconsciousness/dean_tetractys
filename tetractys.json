@@ -512,7 +512,9 @@
           "updatedAt": "2026-03-30T01:11:42.292Z",
           "content": {
             "title": "Surfy Life",
-            "publishedAt": "2026-03-29T21:11"
+            "publishedAt": "2026-03-29T21:11",
+            "excerpt": "Highly personalized surf forecasts for all your favorite spots",
+            "body": "This is content for the surfy life app\n\nIt is a new post so it works great"
           }
         },
         "tetractys": {
