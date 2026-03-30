@@ -536,6 +536,20 @@
           }
         }
       }
+    },
+    "press": {
+      "title": "Press",
+      "slug": "press",
+      "schema": "stream",
+      "template": "stream",
+      "publishedAt": "",
+      "updatedAt": "2026-03-30T00:58:11.045Z",
+      "content": {
+        "title": "Press",
+        "eyebrow": "Press",
+        "intro": "Selected press hits and articles featuring my work."
+      },
+      "posts": {}
     }
   },
   "navigation": {
@@ -560,6 +574,10 @@
         {
           "label": "Projects",
           "slug": "/projects"
+        },
+        {
+          "label": "Press",
+          "slug": "/press"
         }
       ]
     }
