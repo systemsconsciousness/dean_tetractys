@@ -550,6 +550,21 @@
             "excerpt": "The Decatur Fist is my music project, which I started almost 20 years ago in a small town in Texas.",
             "body": "Decatur Fist stuff here."
           }
+        },
+        "congress-machine": {
+          "title": "Congress Machine",
+          "slug": "congress-machine",
+          "schema": "article",
+          "template": "article",
+          "publishedAt": "2026-03-30T22:13",
+          "updatedAt": "2026-03-31T02:14:24.663Z",
+          "content": {
+            "title": "Congress Machine",
+            "publishedAt": "2026-03-30T22:13",
+            "eyebrow": "Political",
+            "excerpt": "Keeping up with Congress is one of the most important and most difficult parts of being a citizen in the United States. Congress Machine is trying to make that easier.",
+            "body": "Congress Machine stuff here."
+          }
         }
       }
     },
