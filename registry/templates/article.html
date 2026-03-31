@@ -33,6 +33,9 @@
         body p {
             padding-bottom: 2rem;
         }
+        body p:first {
+            padding-top: 2rem;
+        }
         .container {
             max-width: 1400px;
             margin: 0 auto;
@@ -150,7 +153,7 @@
         </header>
 
         <section>
-            <div class="section-label">Post / {{publishedAt}}</div>
+            <div class="section-label">{{streamTitle}} / {{publishedAt}}</div>
             <div class="body">{{body}}</div>
         </section>
 
