@@ -535,6 +535,21 @@
             "body": "<p>Tetractys is a simple way to deploy static HTML to GitHub Pages. Just click to log in via your GitHub user account, create a new repo, edit the site, and deploy. </p>\n\n<p>The template and content you've updated in the editor are merged, and the site is rendered in GitHub Pages. You can edit the template and schema files in the editor and create new on the fly when you need them.</p>\n\n<p>This project is for educational purposes only right now, but you're welcome to try it out at <a href=\"https://tetractys.zazenlabs.com\">tetractys.zazenlabs.com</a>.\n</p>\n<br>",
             "footerText": "(c) 2026 / Dean Haddock"
           }
+        },
+        "the-decatur-fist": {
+          "title": "The Decatur Fist",
+          "slug": "the-decatur-fist",
+          "schema": "article",
+          "template": "article",
+          "publishedAt": "2026-03-30T22:09",
+          "updatedAt": "2026-03-31T02:11:25.096Z",
+          "content": {
+            "title": "The Decatur Fist",
+            "publishedAt": "2026-03-30T22:09",
+            "eyebrow": "Music",
+            "excerpt": "The Decatur Fist is my music project, which I started almost 20 years ago in a small town in Texas.",
+            "body": "Decatur Fist stuff here."
+          }
         }
       }
     },

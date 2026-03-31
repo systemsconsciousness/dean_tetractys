@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Decatur Fist | Dean Haddock</title>
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet">
+    <style>
+        @keyframes fade-shift {
+            0% { color: #80cbc4; }
+            50% { color: #c42b8c; }
+            100% { color: #80cbc4; }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 1.6;
+            background: #fff;
+            -webkit-font-smoothing: antialiased;
+        }
+        body p {
+            padding-bottom: 2rem;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 3rem;
+        }
+
+        header {
+            padding: 8rem 0 6rem;
+            /*border-bottom: 1px solid #e5e5e5;*/
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            letter-spacing: 0.15em;
+            margin-bottom: 6rem;
+            color: #666;
+            text-transform: uppercase;
+        }
+        .logo a {
+            text-decoration: none;
+            color: #666;
+        }
+        .logo a:hover {
+            text-decoration: none;
+            color: #e57399;
+        }
+        .logo-icon {
+            font-size: 1.5rem;
+            animation: fade-shift 15s infinite ease-in-out;
+            transition: color 0.5s;
+        }
+
+        h1 {
+            font-size: 5.5rem;
+            font-weight: 300;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            max-width: 900px;
+            margin-bottom: 3rem;
+        }
+
+        .intro {
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 1.6;
+            color: #666;
+            max-width: 700px;
+        }
+
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        .section-label {
+            font-size: 0.875rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #999;
+            margin-bottom: 0rem;
+        }
+
+        footer {
+            padding: 4rem 0;
+            font-size: 0.875rem;
+            color: #999;
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 2rem;
+            }
+
+            h1 {
+                font-size: 4rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 4rem 0 6rem;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .intro {
+                font-size: 1.25rem;
+            }
+
+            section {
+                padding: 4rem 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="material-symbols-outlined logo-icon">spa</span>
+                <a href="/">Dean Haddock</a>
+            </div>
+            <h1>The Decatur Fist</h1>
+            <p class="intro">The Decatur Fist is my music project, which I started almost 20 years ago in a small town in Texas.</p>
+        </header>
+
+        <section>
+            <div class="section-label">Post / 2026-03-30T22:09</div>
+            <div class="body">Decatur Fist stuff here.</div>
+        </section>
+
+        <footer>
+            
+        </footer>
+    </div>
+</body>
+
+</html>
