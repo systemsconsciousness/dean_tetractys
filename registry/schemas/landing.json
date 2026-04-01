@@ -151,6 +151,16 @@
       "name": "footerText",
       "label": "Footer Text",
       "type": "text"
+    },
+    {
+      "name": "section1",
+      "label": "Capabilities",
+      "type": "text"
+    },
+    {
+      "name": "section2",
+      "label": "Wayfinding",
+      "type": "text"
     }
   ]
 }
