@@ -69,7 +69,7 @@
         {
           "name": "body",
           "label": "Body",
-          "type": "textarea",
+          "type": "blocks",
           "required": true
         },
         {
@@ -359,6 +359,11 @@
           "label": "Stream Title",
           "type": "text",
           "required": true
+        },
+        {
+          "name": "body",
+          "label": "Body",
+          "type": "blocks"
         },
         {
           "name": "intro",

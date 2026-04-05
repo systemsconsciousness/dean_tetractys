@@ -25,7 +25,7 @@
     {
       "name": "body",
       "label": "Body",
-      "type": "textarea",
+      "type": "blocks",
       "required": true
     },
     {
