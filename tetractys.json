@@ -659,6 +659,8 @@
     "deploy": {
       "target": "ftp",
       "baseUrl": ""
-    }
+    },
+    "siteGithubRepoLink": "https://github.com/systemsconsciousness/dean_tetractys",
+    "siteLatestCommitMessage": "Update footer content"
   }
 }
