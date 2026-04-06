@@ -393,11 +393,11 @@
       "schema": "landing",
       "template": "landing",
       "publishedAt": "",
-      "updatedAt": "2026-04-05T18:42:25.538Z",
+      "updatedAt": "2026-04-05T23:35:37.635Z",
       "content": {
         "brandName": "TETRACTYS",
         "title": "Busy building products in seated meditation",
-        "heroText": "Product @ Contentstack / Founder @ Zazen Labs / Ex‑10up, StoryCorps / Helping teams build thoughtful, scalable digital products that serve people and communities",
+        "heroText": "<div>Product @ Contentstack / Founder @ Zazen Labs / Ex‑10up, StoryCorps / Helping teams build thoughtful, scalable digital products that serve people and communities</div>",
         "practice1": "Product Management",
         "practice2": "Platform & Infrastructure",
         "practice3": "Systems Thinking",
@@ -626,7 +626,13 @@
           "content": {
             "title": "This is a sample press hit",
             "publishedAt": "2026-03-30T11:18",
-            "body": "<div>We </div><div><br></div><div>are just</div><div><br></div><div>This time it did work.</div><div><br></div><div>Testing <b><i><u>this</u></i></b></div><div><b><i><u><br></u></i></b></div><div><b><i><u>And my change didn't save either</u></i></b></div>",
+            "body": [
+              {
+                "type": "paragraph",
+                "html": "<p>We </p>\n\n<p><br></p>\n\n<p>are just</p>\n\n<p><br></p>\n\n<p>This time it did work.</p>\n\n<p><br></p>\n\n<p>Testing <b><i><u>this</u></i></b></p>\n\n<p><b><i><u><br></u></i></b></p>\n\n<p><b><i><u>And my change didn't save either</u></i></b></p>\n",
+                "attrs": {}
+              }
+            ],
             "excerpt": "The excerpt didn't save. Hmm. Well now it is working"
           }
         }
