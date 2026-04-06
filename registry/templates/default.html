@@ -4,12 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
     <title>{{title}} | {{siteTitle}}</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
         rel="stylesheet">
+    <script>
+        (function () {
+            try {
+                const storedTheme = localStorage.getItem('tetractys-site-theme');
+                if (storedTheme === 'light' || storedTheme === 'dark') {
+                    document.documentElement.setAttribute('data-theme', storedTheme);
+                }
+            } catch (error) {}
+        }());
+    </script>
     <style>
+        :root {
+            color-scheme: light;
+            --bg: #fff;
+            --text: #000;
+            --muted: #666;
+            --subtle: #999;
+            --line: #e5e5e5;
+            --surface: #fafafa;
+            --button-bg: transparent;
+            --button-border: #e5e5e5;
+            --button-text: #000;
+            --button-hover-bg: #000;
+            --button-hover-text: #fff;
+            --link: #666;
+            --link-hover: #000;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                color-scheme: dark;
+                --bg: #101214;
+                --text: #f4efe8;
+                --muted: #c1b8ab;
+                --subtle: #938c84;
+                --line: #2c3238;
+                --surface: #181c20;
+                --button-bg: rgba(255, 255, 255, 0.03);
+                --button-border: #394149;
+                --button-text: #f4efe8;
+                --button-hover-bg: #f4efe8;
+                --button-hover-text: #101214;
+                --link: #d8d0c3;
+                --link-hover: #fff;
+            }
+        }
+
+        :root[data-theme="light"] {
+            color-scheme: light;
+            --bg: #fff;
+            --text: #000;
+            --muted: #666;
+            --subtle: #999;
+            --line: #e5e5e5;
+            --surface: #fafafa;
+            --button-bg: transparent;
+            --button-border: #e5e5e5;
+            --button-text: #000;
+            --button-hover-bg: #000;
+            --button-hover-text: #fff;
+            --link: #666;
+            --link-hover: #000;
+        }
+
+        :root[data-theme="dark"] {
+            color-scheme: dark;
+            --bg: #101214;
+            --text: #f4efe8;
+            --muted: #c1b8ab;
+            --subtle: #938c84;
+            --line: #2c3238;
+            --surface: #181c20;
+            --button-bg: rgba(255, 255, 255, 0.03);
+            --button-border: #394149;
+            --button-text: #f4efe8;
+            --button-hover-bg: #f4efe8;
+            --button-hover-text: #101214;
+            --link: #d8d0c3;
+            --link-hover: #fff;
+        }
+
         @keyframes fade-shift {
             0% { color: #80cbc4; }
             50% { color: #c42b8c; }
@@ -25,9 +106,10 @@
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.5;
-            color: #000;
-            background: #fff;
+            color: var(--text);
+            background: var(--bg);
             -webkit-font-smoothing: antialiased;
+            transition: background-color 0.35s ease, color 0.35s ease;
         }
 
         .container {
@@ -38,27 +120,26 @@
 
         header {
             padding: 8rem 0 12rem;
-            border-bottom: 1px solid #e5e5e5;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .header-meta {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 2rem;
+            margin-bottom: 6rem;
         }
 
         .logo {
+            font-size: 1.125rem;
+            font-weight: 400;
+            letter-spacing: 0.05em;
             display: flex;
             align-items: center;
             gap: 0.5rem;
-            font-size: 0.9rem;
-            letter-spacing: 0.15em;
-            margin-bottom: 6rem;
-            color: #666;
-            text-transform: uppercase;
         }
-        .logo a {
-            text-decoration: none;
-            color: #666;
-        }
-        .logo a:hover {
-            text-decoration: none;
-            color: #e57399;
-        }
+
         .logo-icon {
             font-size: 1.5rem;
             animation: fade-shift 15s infinite ease-in-out;
@@ -78,13 +159,13 @@
             font-size: 1.5rem;
             font-weight: 300;
             line-height: 1.6;
-            color: #666;
+            color: var(--muted);
             max-width: 700px;
         }
 
         section {
             padding: 8rem 0;
-            border-bottom: 1px solid #e5e5e5;
+            border-bottom: 1px solid var(--line);
         }
 
         section:last-of-type {
@@ -95,7 +176,7 @@
             font-size: 0.875rem;
             letter-spacing: 0.15em;
             text-transform: uppercase;
-            color: #999;
+            color: var(--subtle);
             margin-bottom: 4rem;
         }
 
@@ -110,18 +191,18 @@
         .email {
             font-size: 1.75rem;
             font-weight: 300;
-            color: #000;
+            color: var(--text);
             text-decoration: none;
             transition: color 0.3s ease;
         }
 
         .email:hover {
-            color: #666;
+            color: var(--link);
         }
 
         .copy-btn {
-            background: none;
-            border: 1px solid #e5e5e5;
+            background: var(--button-bg);
+            border: 1px solid var(--button-border);
             padding: 0.5rem;
             cursor: pointer;
             display: flex;
@@ -129,18 +210,21 @@
             justify-content: center;
             transition: all 0.3s ease;
             border-radius: 4px;
+            color: var(--button-text);
         }
 
         .copy-btn:hover {
-            border-color: #000;
-            background: #000;
+            border-color: var(--button-hover-bg);
+            background: var(--button-hover-bg);
+            color: var(--button-hover-text);
         }
 
         .copy-btn:hover svg {
-            stroke: #fff;
+            stroke: currentColor;
         }
 
         .copy-btn svg {
+            stroke: currentColor;
             transition: stroke 0.3s ease;
         }
 
@@ -149,7 +233,7 @@
             left: 0;
             top: -2rem;
             font-size: 0.875rem;
-            color: #000;
+            color: var(--text);
             opacity: 0;
             transition: opacity 0.3s ease;
             pointer-events: none;
@@ -159,10 +243,45 @@
             opacity: 1;
         }
 
+        .theme-toggle {
+            appearance: none;
+            border: 1px solid var(--button-border);
+            background: var(--button-bg);
+            color: var(--button-text);
+            border-radius: 999px;
+            padding: 0.65rem 0.95rem;
+            font: inherit;
+            font-size: 0.75rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .theme-toggle-kicker {
+            opacity: 0.65;
+        }
+
+        .theme-toggle:hover {
+            border-color: var(--button-hover-bg);
+            background: var(--button-hover-bg);
+            color: var(--button-hover-text);
+        }
+
+        .theme-toggle:focus-visible,
+        .copy-btn:focus-visible,
+        .email:focus-visible {
+            outline: 2px solid var(--text);
+            outline-offset: 3px;
+        }
+
         footer {
             padding: 4rem 0;
             font-size: 0.875rem;
-            color: #999;
+            color: var(--subtle);
         }
 
         @media (max-width: 1024px) {
@@ -180,6 +299,12 @@
                 padding: 4rem 0 6rem;
             }
 
+            .header-meta {
+                flex-direction: column;
+                gap: 1.5rem;
+                margin-bottom: 3rem;
+            }
+
             h1 {
                 font-size: 2.5rem;
             }
@@ -191,9 +316,75 @@
             section {
                 padding: 4rem 0;
             }
+
+            .theme-toggle {
+                align-self: flex-start;
+            }
         }
     </style>
     <script>
+        const THEME_STORAGE_KEY = 'tetractys-site-theme';
+
+        function applyThemePreference(theme) {
+            if (theme === 'light' || theme === 'dark') {
+                document.documentElement.setAttribute('data-theme', theme);
+                return;
+            }
+            document.documentElement.removeAttribute('data-theme');
+        }
+
+        function getActiveTheme() {
+            const override = document.documentElement.getAttribute('data-theme');
+            if (override === 'light' || override === 'dark') {
+                return override;
+            }
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        function syncThemeToggle() {
+            const themeToggle = document.getElementById('themeToggle');
+            if (!themeToggle) {
+                return;
+            }
+
+            const nextTheme = getActiveTheme() === 'dark' ? 'Light' : 'Dark';
+            const label = themeToggle.querySelector('.theme-toggle-label');
+            label.textContent = nextTheme;
+            themeToggle.setAttribute('aria-label', `Switch to ${nextTheme.toLowerCase()} mode`);
+            themeToggle.setAttribute('aria-pressed', String(getActiveTheme() === 'dark'));
+        }
+
+        function initializeThemeToggle() {
+            const themeToggle = document.getElementById('themeToggle');
+            if (!themeToggle) {
+                return;
+            }
+
+            themeToggle.addEventListener('click', () => {
+                const nextTheme = getActiveTheme() === 'dark' ? 'light' : 'dark';
+                applyThemePreference(nextTheme);
+                try {
+                    localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
+                } catch (error) {}
+                syncThemeToggle();
+            });
+
+            const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+            const handleSystemThemeChange = () => {
+                if (!document.documentElement.hasAttribute('data-theme')) {
+                    syncThemeToggle();
+                }
+            };
+
+            if (typeof mediaQuery.addEventListener === 'function') {
+                mediaQuery.addEventListener('change', handleSystemThemeChange);
+            } else if (typeof mediaQuery.addListener === 'function') {
+                mediaQuery.addListener(handleSystemThemeChange);
+            }
+
+            syncThemeToggle();
+        }
+
         function copyEmail() {
             const email = '{{contactEmail}}';
 
@@ -239,23 +430,31 @@
                 feedback.classList.remove('show');
             }, 2000);
         }
+
+        document.addEventListener('DOMContentLoaded', initializeThemeToggle);
     </script>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <div class="logo">
-                <span class="material-symbols-outlined logo-icon">spa</span>
-                <a href="/">{{siteTitle}}</a>
+            <div class="header-meta">
+                <div class="logo">
+                    <span class="material-symbols-outlined logo-icon">spa</span>
+                    {{siteTitle}}
+                </div>
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">
+                    <span class="theme-toggle-kicker">Theme</span>
+                    <span class="theme-toggle-label">Dark</span>
+                </button>
             </div>
             <h1>{{title}}</h1>
             <p class="intro">{{intro}}</p>
         </header>
 
         <section>
-            <div class="section-label">{{eyebrow}}</div>
-            <p class="intro">{{body}}</p>
+            <div class="section-label">Post / {{publishedAt}}</div>
+            <div class="body">{{body}}</div>
         </section>
 
         <section>
