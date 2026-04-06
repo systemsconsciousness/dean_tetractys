@@ -350,6 +350,15 @@
                 align-self: flex-start;
             }
         }
+        p {
+            font-size: 1.125rem;       /* Approx 18px */
+            line-height: 1.6;          /* Spacious vertical breathing room */
+            /*max-width: 65ch;           /* Optimal line length for focus */
+            /*color: #333;               /* High contrast but softer than pure black */
+            text-align: left;          /* Predictable starting point for eyes */
+            text-wrap: pretty;         /* Prevents awkward line endings */
+            margin-bottom: 1.5em;      /* Clear separation between paragraphs */
+        }
     </style>
     <script>
         const THEME_STORAGE_KEY = 'tetractys-site-theme';
@@ -423,7 +432,7 @@
             <div class="header-meta">
                 <div class="logo">
                     <span class="material-symbols-outlined logo-icon">spa</span>
-                    Dean Haddock
+                    <a href="https://deanhaddock.com">Dean Haddock</a
                 </div>
                 <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">
                     <span class="theme-toggle-kicker">Theme</span>
