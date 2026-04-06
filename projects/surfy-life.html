@@ -253,11 +253,7 @@
             text-wrap: pretty;         /* Prevents awkward line endings */
             margin-bottom: 1.5em;      /* Clear separation between paragraphs */
         }
-        a {
-            color: var(--text);
-            text-decoration: none;
-            transition: color 0.3s ease, text-decoration-color 0.3s ease;
-        }  
+
     </style>
     <script>
         const THEME_STORAGE_KEY = 'tetractys-site-theme';
@@ -331,7 +327,7 @@
             <div class="header-meta">
                 <div class="logo">
                     <span class="material-symbols-outlined logo-icon">spa</span>
-                    Dean Haddock
+                    <a href="https://deanhaddock.com">Dean Haddock</a>
                 </div>
                 <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">
                     <span class="theme-toggle-kicker">Theme</span>
