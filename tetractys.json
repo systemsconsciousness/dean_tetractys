@@ -602,7 +602,8 @@
       "content": {
         "title": "Press",
         "eyebrow": "Press",
-        "intro": "Selected press hits and articles featuring my work."
+        "intro": "Selected press hits and articles featuring my work.",
+        "body": []
       },
       "posts": {
         "press-hit": {
@@ -661,6 +662,6 @@
       "baseUrl": ""
     },
     "siteGithubRepoLink": "https://github.com/systemsconsciousness/dean_tetractys",
-    "siteLatestCommitMessage": "Update footer content"
+    "siteLatestCommitMessage": "Update the readme!"
   }
 }
