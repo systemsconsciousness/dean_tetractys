@@ -368,21 +368,19 @@
             border: 1px solid var(--button-border);
             background: var(--button-bg);
             color: var(--button-text);
-            border-radius: 999px;
-            padding: 0.65rem 0.95rem;
-            font: inherit;
-            font-size: 0.75rem;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
+            border-radius: 50%;
+            width: 38px;
+            height: 38px;
+            padding: 0;
             display: inline-flex;
             align-items: center;
-            gap: 0.6rem;
+            justify-content: center;
             cursor: pointer;
             transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
         }
 
-        .theme-toggle-kicker {
-            opacity: 0.65;
+        .theme-toggle .material-symbols-outlined {
+            font-size: 20px;
         }
 
         .theme-toggle:hover {
@@ -479,7 +477,7 @@
             }
         }
         p {
-            font-size: 1.5rem;       /* Approx 18px */
+            font-size: 1.125rem;       /* Approx 18px */
             line-height: 1.6;          /* Spacious vertical breathing room */
             /*max-width: 65ch;           /* Optimal line length for focus */
             /*color: #333;               /* High contrast but softer than pure black */
@@ -518,10 +516,13 @@
                 return;
             }
 
-            const nextTheme = getActiveTheme() === 'dark' ? 'Light' : 'Dark';
-            themeToggle.querySelector('.theme-toggle-label').textContent = nextTheme;
-            themeToggle.setAttribute('aria-label', `Switch to ${nextTheme.toLowerCase()} mode`);
-            themeToggle.setAttribute('aria-pressed', String(getActiveTheme() === 'dark'));
+            const isDark = getActiveTheme() === 'dark';
+            const icon = isDark ? 'light_mode' : 'dark_mode';
+            const label = isDark ? 'Switch to light mode' : 'Switch to dark mode';
+            
+            themeToggle.querySelector('.material-symbols-outlined').textContent = icon;
+            themeToggle.setAttribute('aria-label', label);
+            themeToggle.setAttribute('aria-pressed', String(isDark));
         }
 
         function initializeThemeToggle() {
@@ -614,8 +615,7 @@
                     <a href="https://deanhaddock.com">Dean Haddock</a>
                 </div>
                 <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch theme">
-                    <span class="theme-toggle-kicker">Theme</span>
-                    <span class="theme-toggle-label">Dark</span>
+                    <span class="material-symbols-outlined">dark_mode</span>
                 </button>
             </div>
             <h1>Busy rebuilding this site in seated meditation</h1>
@@ -643,6 +643,7 @@ people and communities</p>
             <div class="section-label">Active Labs</div>
             <div class="products-grid">
                 <div class="product product-photobop">
+                    <span class="material-symbols-outlined product-icon">description</span>
                     <div class="product-content">
                         <div class="product-name">Projects</div>
                         <p class="product-description">I'm always working on something new. Here are some of my active projects.</p>
@@ -653,6 +654,7 @@ people and communities</p>
                     </div>
                 </div>
                 <div class="product product-surfy">
+                    <span class="material-symbols-outlined product-icon">edit_note</span>
                     <div class="product-content">
                         <div class="product-name">Journal</div>
                         <p class="product-description">Writings and thoughts on technology and culture.</p>
@@ -663,6 +665,7 @@ people and communities</p>
                     </div>
                 </div>
                 <div class="product">
+                    <span class="material-symbols-outlined product-icon" style="color: var(--text);">dashboard_customize</span>
                     <div class="product-content">
                         <div class="product-name">Press</div>
                         <p class="product-description">Selected press clippings and articles featuring my work.</p>
