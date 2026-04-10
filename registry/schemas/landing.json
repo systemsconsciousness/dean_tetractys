@@ -15,7 +15,7 @@
     {
       "name": "heroText",
       "label": "Intro Text",
-      "type": "textarea"
+      "type": "text"
     },
     {
       "name": "practice1",

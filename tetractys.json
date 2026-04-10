@@ -197,7 +197,7 @@
         {
           "name": "heroText",
           "label": "Intro Text",
-          "type": "textarea"
+          "type": "text"
         },
         {
           "name": "practice1",
@@ -393,11 +393,11 @@
       "schema": "landing",
       "template": "landing",
       "publishedAt": "",
-      "updatedAt": "2026-04-07T02:00:01.402Z",
+      "updatedAt": "2026-04-10T00:58:49.046Z",
       "content": {
         "brandName": "TETRACTYS",
         "title": "Busy rebuilding this site in seated meditation",
-        "heroText": "Product @ Contentstack / Founder @ Zazen Labs / Ex‑10up, StoryCorps / \nHelping teams build thoughtful, scalable digital products that serve \npeople and communities",
+        "heroText": "Product @ Contentstack / Founder @ Zazen Labs / Ex‑10up, StoryCorps / Helping teams build thoughtful, scalable digital products that serve people and communities",
         "practice1": "Product Management",
         "practice2": "Platform & Infrastructure",
         "practice3": "Systems Thinking",
