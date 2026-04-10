@@ -161,6 +161,11 @@
       "name": "section2",
       "label": "Wayfinding",
       "type": "text"
+    },
+    {
+      "name": "skillsHeader",
+      "label": "Our Practice",
+      "type": "text"
     }
   ]
 }

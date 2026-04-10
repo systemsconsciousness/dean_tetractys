@@ -343,6 +343,11 @@
           "name": "section2",
           "label": "Wayfinding",
           "type": "text"
+        },
+        {
+          "name": "skillsHeader",
+          "label": "Our Practice",
+          "type": "text"
         }
       ]
     },
@@ -426,7 +431,8 @@
         "contactEmail": "hello@deanhaddock.com",
         "footerText": "© 2026 / Dean Haddock / Built with Tetractys",
         "section1": "Things I'm good at",
-        "section2": "Find your way"
+        "section2": "Find your way",
+        "skillsHeader": "Strengths"
       }
     }
   },
@@ -662,6 +668,6 @@
       "baseUrl": ""
     },
     "siteGithubRepoLink": "https://github.com/systemsconsciousness/dean_tetractys",
-    "siteLatestCommitMessage": "Refresh starter theme via Tetractys"
+    "siteLatestCommitMessage": "Promote all drafts to production"
   }
 }
