@@ -17,7 +17,7 @@
                 if (storedTheme === 'light' || storedTheme === 'dark') {
                     document.documentElement.setAttribute('data-theme', storedTheme);
                 }
-            } catch (error) {}
+            } catch (error) { }
         }());
     </script>
     <style>
@@ -88,9 +88,17 @@
         }
 
         @keyframes fade-shift {
-            0% { color: #80cbc4; }
-            50% { color: #c42b8c; }
-            100% { color: #80cbc4; }
+            0% {
+                color: #80cbc4;
+            }
+
+            50% {
+                color: #c42b8c;
+            }
+
+            100% {
+                color: #80cbc4;
+            }
         }
 
         * {
@@ -206,21 +214,6 @@
             display: flex;
             align-items: flex-start;
             gap: 1rem;
-        }
-
-        .product-icon {
-            font-size: 2.25rem;
-            line-height: 1;
-            flex-shrink: 0;
-            padding-top: 0.1rem;
-        }
-
-        .product-photobop .product-icon {
-            color: #c42b8c;
-        }
-
-        .product-surfy .product-icon {
-            color: #80cbc4;
         }
 
         .product-content {
@@ -476,20 +469,27 @@
                 align-self: flex-start;
             }
         }
+
         p {
-            font-size: 1.125rem;       /* Approx 18px */
-            line-height: 1.6;          /* Spacious vertical breathing room */
+            font-size: 1.125rem;
+            /* Approx 18px */
+            line-height: 1.6;
+            /* Spacious vertical breathing room */
             /*max-width: 65ch;           /* Optimal line length for focus */
             /*color: #333;               /* High contrast but softer than pure black */
-            text-align: left;          /* Predictable starting point for eyes */
-            text-wrap: pretty;         /* Prevents awkward line endings */
-            margin-bottom: 1.5em;      /* Clear separation between paragraphs */
-        }      
+            text-align: left;
+            /* Predictable starting point for eyes */
+            text-wrap: pretty;
+            /* Prevents awkward line endings */
+            margin-bottom: 1.5em;
+            /* Clear separation between paragraphs */
+        }
+
         a {
             color: var(--text);
             text-decoration: none;
             transition: color 0.3s ease, text-decoration-color 0.3s ease;
-        }          
+        }
     </style>
     <script>
         const THEME_STORAGE_KEY = 'tetractys-site-theme';
@@ -519,7 +519,7 @@
             const isDark = getActiveTheme() === 'dark';
             const icon = isDark ? 'light_mode' : 'dark_mode';
             const label = isDark ? 'Switch to light mode' : 'Switch to dark mode';
-            
+
             themeToggle.querySelector('.material-symbols-outlined').textContent = icon;
             themeToggle.setAttribute('aria-label', label);
             themeToggle.setAttribute('aria-pressed', String(isDark));
@@ -536,7 +536,7 @@
                 applyThemePreference(nextTheme);
                 try {
                     localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
-                } catch (error) {}
+                } catch (error) { }
                 syncThemeToggle();
             });
 
@@ -640,36 +640,30 @@
         <section>
             <div class="section-label">Active Labs</div>
             <div class="products-grid">
-                <div class="product product-photobop">
-                    <span class="material-symbols-outlined product-icon">description</span>
+                <div class="product">
                     <div class="product-content">
                         <div class="product-name">{{product1Name}}</div>
                         <p class="product-description">{{product1Description}}</p>
                         <a href="{{product1Link}}" class="product-link">
                             {{product1Link}}
-                            <span class="material-symbols-outlined">arrow_outward</span>
                         </a>
                     </div>
                 </div>
-                <div class="product product-surfy">
-                    <span class="material-symbols-outlined product-icon">edit_note</span>
+                <div class="product">
                     <div class="product-content">
                         <div class="product-name">{{product2Name}}</div>
                         <p class="product-description">{{product2Description}}</p>
                         <a href="{{product2Link}}" class="product-link">
                             {{product2Link}}
-                            <span class="material-symbols-outlined">arrow_outward</span>
                         </a>
                     </div>
                 </div>
                 <div class="product">
-                    <span class="material-symbols-outlined product-icon" style="color: var(--text);">dashboard_customize</span>
                     <div class="product-content">
                         <div class="product-name">{{product3Name}}</div>
                         <p class="product-description">{{product3Description}}</p>
                         <a href="{{product3Link}}" class="product-link">
                             {{product3Link}}
-                            <span class="material-symbols-outlined">arrow_outward</span>
                         </a>
                     </div>
                 </div>
