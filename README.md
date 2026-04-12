@@ -1,6 +1,6 @@
 # Dean Haddock
 
-This repository is a [Tetractys](https://github.com/systemsconsciousness/tetractys) site designed to be forked, remixed, and adapted into your own version.
+This repository is a [Tetractys](https://tetractys.zazenlabs.com) site designed to be forked, remixed, and adapted into your own version.
 
 ## Site Model
 - `tetractys.json` is the source of truth for content structure, templates, navigation, and settings.
