@@ -59,7 +59,7 @@
         {
           "name": "excerpt",
           "label": "Excerpt",
-          "type": "textarea"
+          "type": "text"
         },
         {
           "name": "publishedAt",
@@ -197,7 +197,7 @@
         {
           "name": "heroText",
           "label": "Intro Text",
-          "type": "textarea"
+          "type": "text"
         },
         {
           "name": "practice1",
@@ -333,6 +333,21 @@
           "name": "footerText",
           "label": "Footer Text",
           "type": "text"
+        },
+        {
+          "name": "section1",
+          "label": "Capabilities",
+          "type": "text"
+        },
+        {
+          "name": "section2",
+          "label": "Wayfinding",
+          "type": "text"
+        },
+        {
+          "name": "capabilities",
+          "label": "Our Practice",
+          "type": "text"
         }
       ]
     },
@@ -349,6 +364,11 @@
           "label": "Stream Title",
           "type": "text",
           "required": true
+        },
+        {
+          "name": "body",
+          "label": "Body",
+          "type": "blocks"
         },
         {
           "name": "intro",
@@ -411,7 +431,8 @@
         "contactEmail": "hello@deanhaddock.com",
         "footerText": "© 2026 / Dean Haddock / Built with Tetractys",
         "section1": "Things I'm good at",
-        "section2": "Find your way"
+        "section2": "Find your way",
+        "capabilities": "Things I'm good at"
       }
     }
   },
@@ -647,6 +668,6 @@
       "baseUrl": ""
     },
     "siteGithubRepoLink": "https://github.com/systemsconsciousness/dean_tetractys",
-    "siteLatestCommitMessage": "Refresh starter theme via Tetractys"
+    "siteLatestCommitMessage": "Promote all drafts to production"
   }
 }
