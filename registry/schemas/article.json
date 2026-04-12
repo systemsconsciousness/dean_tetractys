@@ -15,7 +15,7 @@
     {
       "name": "excerpt",
       "label": "Excerpt",
-      "type": "textarea"
+      "type": "text"
     },
     {
       "name": "publishedAt",
