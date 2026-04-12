@@ -17,7 +17,7 @@
                 if (storedTheme === 'light' || storedTheme === 'dark') {
                     document.documentElement.setAttribute('data-theme', storedTheme);
                 }
-            } catch (error) {}
+            } catch (error) { }
         }());
     </script>
     <style>
@@ -84,9 +84,17 @@
         }
 
         @keyframes fade-shift {
-            0% { color: #80cbc4; }
-            50% { color: #c42b8c; }
-            100% { color: #80cbc4; }
+            0% {
+                color: #80cbc4;
+            }
+
+            50% {
+                color: #c42b8c;
+            }
+
+            100% {
+                color: #80cbc4;
+            }
         }
 
         * {
@@ -330,20 +338,27 @@
             }
 
         }
+
         p {
-            font-size: 1.125rem;       /* Approx 18px */
-            line-height: 1.6;          /* Spacious vertical breathing room */
+            font-size: 1.5rem;
+            /* Approx 18px */
+            line-height: 1.6;
+            /* Spacious vertical breathing room */
             /*max-width: 65ch;           /* Optimal line length for focus */
             /*color: #333;               /* High contrast but softer than pure black */
-            text-align: left;          /* Predictable starting point for eyes */
-            text-wrap: pretty;         /* Prevents awkward line endings */
-            margin-bottom: 1.5em;      /* Clear separation between paragraphs */
-        }   
+            text-align: left;
+            /* Predictable starting point for eyes */
+            text-wrap: pretty;
+            /* Prevents awkward line endings */
+            margin-bottom: 1.5em;
+            /* Clear separation between paragraphs */
+        }
+
         a {
             color: var(--text);
             text-decoration: none;
             transition: color 0.3s ease, text-decoration-color 0.3s ease;
-        }             
+        }
     </style>
     <script>
         const THEME_STORAGE_KEY = 'tetractys-site-theme';
@@ -373,7 +388,7 @@
             const isDark = getActiveTheme() === 'dark';
             const icon = isDark ? 'light_mode' : 'dark_mode';
             const label = isDark ? 'Switch to light mode' : 'Switch to dark mode';
-            
+
             themeToggle.querySelector('.material-symbols-outlined').textContent = icon;
             themeToggle.setAttribute('aria-label', label);
             themeToggle.setAttribute('aria-pressed', String(isDark));
@@ -390,7 +405,7 @@
                 applyThemePreference(nextTheme);
                 try {
                     localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
-                } catch (error) {}
+                } catch (error) { }
                 syncThemeToggle();
             });
 

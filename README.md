@@ -39,6 +39,6 @@ This repository is a [Tetractys](https://github.com/systemsconsciousness/tetract
 
 ## Repository Metadata
 - GitHub repository: https://github.com/systemsconsciousness/dean_tetractys
-- Latest commit message: Promote all drafts to production
+- Latest commit message: Refresh starter theme via Tetractys
 
 The goal is simple: if you like this site, fork it, keep the structure you want, and evolve the rest into your own design and publishing system.
