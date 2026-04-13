@@ -163,7 +163,7 @@
       "type": "text"
     },
     {
-      "name": "capabilities",
+      "name": "skillsHeader",
       "label": "Our Practice",
       "type": "text"
     }
