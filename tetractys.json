@@ -197,7 +197,7 @@
         {
           "name": "heroText",
           "label": "Intro Text",
-          "type": "text"
+          "type": "textarea"
         },
         {
           "name": "practice1",
@@ -333,21 +333,6 @@
           "name": "footerText",
           "label": "Footer Text",
           "type": "text"
-        },
-        {
-          "name": "section1",
-          "label": "Capabilities",
-          "type": "text"
-        },
-        {
-          "name": "section2",
-          "label": "Wayfinding",
-          "type": "text"
-        },
-        {
-          "name": "skillsHeader",
-          "label": "Our Practice",
-          "type": "text"
         }
       ]
     },
@@ -364,11 +349,6 @@
           "label": "Stream Title",
           "type": "text",
           "required": true
-        },
-        {
-          "name": "body",
-          "label": "Body",
-          "type": "blocks"
         },
         {
           "name": "intro",
@@ -668,6 +648,6 @@
       "baseUrl": ""
     },
     "siteGithubRepoLink": "https://github.com/systemsconsciousness/dean_tetractys",
-    "siteLatestCommitMessage": "Promote all drafts to production"
+    "siteLatestCommitMessage": "Refresh starter theme via Tetractys"
   }
 }
