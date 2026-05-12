@@ -151,6 +151,11 @@
       "name": "footerText",
       "label": "Footer Text",
       "type": "text"
+    },
+    {
+      "name": "ourPractice",
+      "label": "Our Practice",
+      "type": "text"
     }
   ]
 }

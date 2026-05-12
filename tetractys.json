@@ -333,6 +333,11 @@
           "name": "footerText",
           "label": "Footer Text",
           "type": "text"
+        },
+        {
+          "name": "ourPractice",
+          "label": "Our Practice",
+          "type": "text"
         }
       ]
     },
@@ -412,7 +417,8 @@
         "footerText": "© 2026 / Dean Haddock / Built with Tetractys",
         "section1": "Things I'm good at",
         "section2": "Find your way",
-        "skillsHeader": "Strengths"
+        "skillsHeader": "Strengths",
+        "ourPractice": "Top Skills"
       }
     }
   },
