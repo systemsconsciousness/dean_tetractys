@@ -15,7 +15,7 @@
     {
       "name": "heroText",
       "label": "Intro Text",
-      "type": "text"
+      "type": "textarea"
     },
     {
       "name": "practice1",
@@ -150,21 +150,6 @@
     {
       "name": "footerText",
       "label": "Footer Text",
-      "type": "text"
-    },
-    {
-      "name": "section1",
-      "label": "Capabilities",
-      "type": "text"
-    },
-    {
-      "name": "section2",
-      "label": "Wayfinding",
-      "type": "text"
-    },
-    {
-      "name": "skillsHeader",
-      "label": "Our Practice",
       "type": "text"
     }
   ]

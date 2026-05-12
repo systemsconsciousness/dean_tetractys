@@ -13,11 +13,6 @@
       "required": true
     },
     {
-      "name": "body",
-      "label": "Body",
-      "type": "blocks"
-    },
-    {
       "name": "intro",
       "label": "Intro Text",
       "type": "textarea"
