@@ -542,7 +542,7 @@
             "publishedAt": "2026-03-29T21:14",
             "heroText": "\"Probably the coolest thing you have ever built.\" - Wife",
             "excerpt": "\"Probably the coolest thing you've ever built.\" - Wife",
-            "body": "<p>Tetractys is a simple way to deploy static HTML to GitHub Pages. Just click to log in via your GitHub user account, create a new repo, edit the site, and deploy. </p>\n\n<p>The template and content you've updated in the editor are merged, and the site is rendered in GitHub Pages. You can edit the template and schema files in the editor and create new tags on the fly when you need them.</p>\n\n<p>This project is for educational purposes only right now, but you're welcome to try it out at <a href=\"https://tetractys.zazenlabs.com\">tetractys.zazenlabs.com</a>.\n</p>\n<br>",
+            "body": "<p>Tetractys is a simple way to deploy static HTML to GitHub Pages. Just click to log in via your GitHub user account, create a new repo, edit the site, and deploy. </p>\n\n<p>The template and content you've updated in the editor are merged, and the site is rendered in GitHub Pages. You can edit the template and schema files in the editor and create new tags on the fly when you need them.</p>\n\n<p>This project is for educational purposes only right now, but you're welcome to try it out at <a href=\"https://tetractys.zazenlabs.com\">tetractys.zazenlabs.com</a>.</p>",
             "footerText": "(c) 2026 / Dean Haddock"
           }
         },
@@ -593,22 +593,16 @@
       },
       "posts": {
         "press-hit": {
-          "title": "This is a sample press hit",
+          "title": "Major Media Coverage & Features",
           "slug": "press-hit",
           "schema": "article",
           "template": "article",
           "publishedAt": "2026-03-30T11:18",
-          "updatedAt": "2026-03-30T15:19:25.203Z",
+          "updatedAt": "2026-05-13T01:24:21.835Z",
           "content": {
-            "title": "This is a sample press hit",
+            "title": "Major Media Coverage & Features",
             "publishedAt": "2026-03-30T11:18",
-            "body": [
-              {
-                "type": "paragraph",
-                "html": "<p>We </p>\n\n<p><br></p>\n\n<p>are just</p>\n\n<p><br></p>\n\n<p>This time it did work.</p>\n\n<p><br></p>\n\n<p>Testing <b><i><u>this</u></i></b></p>\n\n<p><b><i><u><br></u></i></b></p>\n\n<p><b><i><u>And my change didn't save either</u></i></b></p>\n",
-                "attrs": {}
-              }
-            ],
+            "body": "<li><p data-path-to-node=\"7,0,0\"><b data-path-to-node=\"7,0,0\" data-index-in-node=\"0\">The Washington Post</b> <i data-path-to-node=\"7,0,0\" data-index-in-node=\"20\">Experiment with StoryCorps in schools yields more than 50,000 interviews</i> Coverage of the massive scale and impact of the StoryCorps app and its integration into educational environments.\n<a _ngcontent-ng-c4283061409=\"\" target=\"_blank\" rel=\"noopener\" _nghost-ng-c2905163772=\"\" href=\"https://www.washingtonpost.com/news/education/wp/2015/12/17/experiment-with-storycorps-in-schools-yields-more-than-50000-interviews/\" class=\"ng-star-inserted\" data-hveid=\"0\" data-ved=\"0CAAQ_4QMahgKEwiz88vdxaiUAxUAAAAAHQAAAAAQ9wE\">Link Reference</a></p></li><li><p data-path-to-node=\"7,1,0\"><b data-path-to-node=\"7,1,0\" data-index-in-node=\"0\">Nieman Reports (Nieman Foundation at Harvard)</b> <i data-path-to-node=\"7,1,0\" data-index-in-node=\"46\">The Story Behind a StoryCorps Success</i> A deep-dive feature written by Dean Haddock (2015 Visiting Fellow) regarding the technical innovation and strategic \"winding road\" required to build the global oral history app.\n<a _ngcontent-ng-c4283061409=\"\" target=\"_blank\" rel=\"noopener\" _nghost-ng-c2905163772=\"\" href=\"https://www.google.com/url?sa=E&amp;source=gmail&amp;q=https://niemanreports.org/articles/the-story-behind-a-storycorps-success-dean-haddock-a-2015-visiting-fellow-on-the-long-winding-road-to-an-oral-history-app/\" class=\"ng-star-inserted\" data-hveid=\"0\" data-ved=\"0CAAQ_4QMahgKEwiz88vdxaiUAxUAAAAAHQAAAAAQ-AE\">Link Reference</a></p></li><li><p data-path-to-node=\"7,2,0\"><b data-path-to-node=\"7,2,0\" data-index-in-node=\"0\">PC Mag</b> <i data-path-to-node=\"7,2,0\" data-index-in-node=\"7\">StoryCorps App Seeks to 'Archive the Wisdom of Human History'</i> A feature on the global launch of the app, highlighting its ability to archive stories directly into the Library of Congress.\n<a _ngcontent-ng-c4283061409=\"\" target=\"_blank\" rel=\"noopener\" _nghost-ng-c2905163772=\"\" href=\"https://www.pcmag.com/news/storycorps-app-seeks-to-archive-the-wisdom-of-human-history\" class=\"ng-star-inserted\" data-hveid=\"0\" data-ved=\"0CAAQ_4QMahgKEwiz88vdxaiUAxUAAAAAHQAAAAAQ-QE\">Link Reference</a></p></li><li><p data-path-to-node=\"7,3,0\"><b data-path-to-node=\"7,3,0\" data-index-in-node=\"0\">SheKnows</b> <i data-path-to-node=\"7,3,0\" data-index-in-node=\"9\">These Are Today’s Best, Smartest, &amp; Most Fun Apps for Kids</i> Recognition of the StoryCorps app as a top educational and meaningful \"screen time\" tool for families and teens.\n<a _ngcontent-ng-c4283061409=\"\" target=\"_blank\" rel=\"noopener\" _nghost-ng-c2905163772=\"\" href=\"https://www.sheknows.com/parenting/articles/2144927/best-kids-apps/\" class=\"ng-star-inserted\" data-hveid=\"0\" data-ved=\"0CAAQ_4QMahgKEwiz88vdxaiUAxUAAAAAHQAAAAAQ-gE\">Link Reference</a></p></li><li><p data-path-to-node=\"7,4,0\"><b data-path-to-node=\"7,4,0\" data-index-in-node=\"0\">Knight Foundation</b> <i data-path-to-node=\"7,4,0\" data-index-in-node=\"18\">Five Takeaways from SXSWedu</i> Insights and mentions regarding media innovation and educational technology projects.\n<a _ngcontent-ng-c4283061409=\"\" target=\"_blank\" rel=\"noopener\" _nghost-ng-c2905163772=\"\" href=\"https://www.google.com/url?sa=E&amp;source=gmail&amp;q=https://knightfoundation.org/articles/five-takeaways-sxswedu/\" class=\"ng-star-inserted\" data-hveid=\"0\" data-ved=\"0CAAQ_4QMahgKEwiz88vdxaiUAxUAAAAAHQAAAAAQ-wE\">Link Reference</a></p></li>",
             "excerpt": "The excerpt didn't save. Hmm. Well now it is working"
           }
         }
@@ -648,6 +642,6 @@
       "baseUrl": ""
     },
     "siteGithubRepoLink": "https://github.com/systemsconsciousness/dean_tetractys",
-    "siteLatestCommitMessage": "Promote all drafts to production"
+    "siteLatestCommitMessage": "Update press hits"
   }
 }
